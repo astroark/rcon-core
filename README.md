@@ -1,8 +1,8 @@
-# rkon-core
+# astro rcon-core
 
-> :warning: **This repository is archived and thus not maintained anymore.**
+>**This repository is forked from [rkon-core](https://github.com/kr5ch/rkon-core) and adapted to work with ark servers** 
 
-This is a library for the [Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol), it is intended for raw use; there are no presets or built-in commands.
+This is a library for the [Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)
 
 ## Usage
 ```java
@@ -16,6 +16,3 @@ String result = rcon.command("list");
 System.out.println(result);
 ```
 When connecting to the rcon server, an `AuthenticationException` will be thrown if the password is incorrect.
-
-## Download
-The latest packed .jar, ready to use as a library, is available [here](https://github.com/Kronos666/rkon-core/releases/latest).
