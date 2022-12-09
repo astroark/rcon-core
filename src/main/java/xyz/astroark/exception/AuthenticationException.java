@@ -1,4 +1,4 @@
-package net.kronos.rkon.core.ex;
+package xyz.astroark.exception;
 
 public class AuthenticationException extends Exception {
 

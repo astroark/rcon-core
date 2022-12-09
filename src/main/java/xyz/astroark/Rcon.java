@@ -1,11 +1,12 @@
-package net.kronos.rkon.core;
+package xyz.astroark;
+
+
+import xyz.astroark.exception.AuthenticationException;
 
 import java.io.IOException;
 import java.net.Socket;
 import java.nio.charset.Charset;
 import java.util.Random;
-
-import net.kronos.rkon.core.ex.AuthenticationException;
 
 public class Rcon {
 	

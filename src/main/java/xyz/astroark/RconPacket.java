@@ -1,4 +1,6 @@
-package net.kronos.rkon.core;
+package xyz.astroark;
+
+import xyz.astroark.exception.MalformedPacketException;
 
 import java.io.DataInputStream;
 import java.io.EOFException;
@@ -10,7 +12,6 @@ import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import net.kronos.rkon.core.ex.MalformedPacketException;
 
 public class RconPacket {
 	
