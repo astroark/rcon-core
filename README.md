@@ -1,4 +1,4 @@
-# astro rcon-core
+# astro ark rcon-core
 
 >**This repository is forked from [rkon-core](https://github.com/kr5ch/rkon-core) and adapted to work with ark servers** 
 
